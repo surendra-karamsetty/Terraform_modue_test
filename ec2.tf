@@ -4,6 +4,6 @@ module "ec2" {
     project = "Roboshop"
     environment = "dev"
     ami_id = "ami-0220d79f3f480ecf5"
-    sg_ids = "sg-0b9f1fbcf18f4096e"
+    sg_ids = ["sg-0b9f1fbcf18f4096e"]
     instance_type = "t3.micro"
 }
