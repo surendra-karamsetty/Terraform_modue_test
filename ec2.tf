@@ -5,5 +5,5 @@ module "ec2" {
     environment = var.environment
     ami_id = var.ami_id
     sg_ids = var.sg_ids
-    instance_type = "t3.micro"
+    instance_type = var.instance_type
 }
